@@ -1,0 +1,17 @@
+/*---------------------
+Nav Section 
+----------------------- */
+
+.nav-menu
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav-menu a
+{
+    text-decoration: none;
+    margin: 16px;
+    padding: 0px;
+}

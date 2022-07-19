@@ -1,0 +1,20 @@
+/* ----------
+public poppins font import
+------------- */
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle&family=Poppins:wght@700&display=swap');
+
+
+
+
+/* ----------
+body start
+------------- */
+
+
+body
+{
+   
+    font-family: 'Poppins', sans-serif;
+  
+    
+}
