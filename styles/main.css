@@ -1,10 +1,102 @@
 /* ------------------
-Tis is top section
+top section Start
 --------------------- */
-
 
 
 .top-section
 {
     display: flex;
 }
+
+
+
+/* ------------------
+top section End
+--------------------- */
+
+
+
+
+
+
+/* ------------------------
+Company icon section  Start.
+--------------------------- */
+
+.company-icon-section
+{
+
+    border: 0.5px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ------------------------
+Company icon section End.
+--------------------------- */
+
+
+/* ------------------------
+Top Player Section Start.
+--------------------------- */
+.top-player-parent-div
+{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+}
+
+
+
+.top-player-chid-div
+{
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+
+
+.player-image
+{
+    width: 56px;
+    height:56px;
+}
+
+/* ------------------------
+Top Player Section End.
+--------------------------- */
+
+
+
+
+
+/* ------------------------
+Popular item Section Start.
+--------------------------- */
+
+
+.popular-collection
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+
+
+.popular-collection-div
+{
+
+    box-shadow: 10px 10px 40px black;
+}
+
+.start-rating
+{
+    display: flex;
+    
+}
+
+
