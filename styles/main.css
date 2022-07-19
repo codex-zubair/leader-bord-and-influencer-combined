@@ -6,8 +6,20 @@ top section Start
 .top-section
 {
     display: flex;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    height: 414px;
+    justify-content: space-around;
 }
 
+
+
+.top-sectoin-title-div
+{
+   margin-right: 133px;
+   width: 582px;
+   height: 270px;
+}
 
 
 /* ------------------
@@ -98,5 +110,15 @@ Popular item Section Start.
     display: flex;
     
 }
+
+
+/* ------------------------
+Popular item Section End.
+--------------------------- */
+
+
+
+
+
 
 
