@@ -8,18 +8,66 @@ top section Start
     display: flex;
     margin-top: 80px;
     margin-bottom: 100px;
-    height: 414px;
+    height: 415px;
     justify-content: space-around;
+    background-color: red;
 }
 
 
 
-.top-sectoin-title-div
+.top-section-title-div
 {
-   margin-right: 133px;
-   width: 582px;
-   height: 270px;
+   
+margin-right: 133px;
+   
+margin-left: 120px;
+   
+width: 582px;
+   
+height: 270px;
 }
+
+.button
+{
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 24px;
+    text-decoration: none;
+
+}
+
+
+
+.top-section-image-div
+{
+   
+   
+    border:2px solid black;
+    border-radius: 280px;
+    background-color: red;
+}
+
+
+.main-camera
+{
+    border-radius: 50%;
+}
+
+.camera-background-div
+
+{
+    background-color: rgba(129, 98, 152, 0.793);
+    position: absolute;
+    right: 50px;
+    top:170px;
+    width:350px;
+    height: 350px;
+    border-radius: 200px;
+    z-index: -1;
+}
+
+
+
+
 
 
 /* ------------------
@@ -38,7 +86,6 @@ Company icon section  Start.
 .company-icon-section
 {
 
-    border: 0.5px solid black;
     display: flex;
     justify-content: space-between;
 }
@@ -64,6 +111,14 @@ Top Player Section Start.
     display: flex;
     align-items: center;
 
+    border: 1px solid black;
+
+}
+
+
+.top-player-chid-div h4
+{
+    margin-left: 10px;
 }
 
 
@@ -88,9 +143,19 @@ Top Player Section End.
 Popular item Section Start.
 --------------------------- */
 
-
-.popular-collection
+.popular-collection h1
 {
+   text-align: center;
+}
+
+
+
+
+.popular-collection-parent-div
+{
+
+
+    margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 20px;
@@ -115,6 +180,23 @@ Popular item Section Start.
 /* ------------------------
 Popular item Section End.
 --------------------------- */
+
+
+
+
+/* -----------------------
+Footer Section
+-------------------------- */
+
+
+footer
+{   
+
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
 
